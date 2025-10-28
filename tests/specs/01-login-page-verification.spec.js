@@ -29,7 +29,7 @@ test("Verify Invalid login error message", async () => {
   );
   
 });
-customtest.only('print',async({adminUser})=>{
+customtest('print',async({adminUser})=>{
   console.log(adminUser.username)
 
 })
