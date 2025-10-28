@@ -1,0 +1,195 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - list [ref=e4]:
+      - listitem [ref=e5]:
+        - link "" [ref=e6] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e7]: 
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "User Image Admin" [ref=e10] [cursor=pointer]:
+          - /url: "#"
+          - img "User Image" [ref=e11]
+          - text: Admin
+        - text:  
+  - complementary [ref=e12]:
+    - link "AdminLTE Logo 7rmart supermarket" [ref=e13] [cursor=pointer]:
+      - /url: https://groceryapp.uniqassosiates.com/admin/home
+      - img "AdminLTE Logo" [ref=e14]
+      - text: 7rmart supermarket
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - img "User Image" [ref=e21]
+        - link "Admin" [ref=e23] [cursor=pointer]:
+          - /url: https://groceryapp.uniqassosiates.com/admin/home
+      - navigation [ref=e24]:
+        - menu [ref=e25]:
+          - listitem [ref=e26]:
+            - link " Dashboard " [ref=e27] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e28]: 
+              - paragraph [ref=e29]:
+                - text: Dashboard
+                - generic [ref=e30]: 
+            - text:                              
+          - listitem [ref=e31]:
+            - link "Manage Contact" [ref=e32] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/list-contact
+              - paragraph [ref=e33]: Manage Contact
+          - listitem [ref=e34]:
+            - link "Manage Gift cards &vouchers" [ref=e35] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/
+              - paragraph [ref=e36]: Manage Gift cards &vouchers
+          - listitem [ref=e37]:
+            - link " Admin Users " [ref=e38] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e39]: 
+              - paragraph [ref=e40]:
+                - text: Admin Users
+                - generic [ref=e41]: 
+            - text:                                                                   
+          - listitem [ref=e42]:
+            - link "ManagePayment" [ref=e43] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/
+              - paragraph [ref=e44]: ManagePayment
+          - listitem [ref=e45]:
+            - link "ManagePayment" [ref=e46] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/
+              - paragraph [ref=e47]: ManagePayment
+          - listitem [ref=e48]:
+            - link "ManagePayment" [ref=e49] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/
+              - paragraph [ref=e50]: ManagePayment
+          - listitem [ref=e51]:
+            - link "ManagePayment" [ref=e52] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/
+              - paragraph [ref=e53]: ManagePayment
+          - listitem [ref=e54]:
+            - link "ManagePayment" [ref=e55] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/
+              - paragraph [ref=e56]: ManagePayment
+          - listitem [ref=e57]:
+            - link "Manage Category" [ref=e58] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/list-category
+              - paragraph [ref=e59]: Manage Category
+          - listitem [ref=e60]:
+            - link "Manage Product12" [ref=e61] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/list-product
+              - paragraph [ref=e62]: Manage Product12
+          - listitem [ref=e63]:
+            - link "Manage Footer Text" [ref=e64] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/list-footertext
+              - paragraph [ref=e65]: Manage Footer Text
+          - listitem [ref=e66]:
+            - link "Manage News" [ref=e67] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/list-news
+              - paragraph [ref=e68]: Manage News
+          - listitem [ref=e69]:
+            - link "Manage Product12" [ref=e70] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/list-product
+              - paragraph [ref=e71]: Manage Product12
+          - listitem [ref=e72]:
+            - link "kkloo" [ref=e73] [cursor=pointer]:
+              - /url: https://groceryapp.uniqassosiates.com/admin/
+              - paragraph [ref=e74]: kkloo
+          - listitem [ref=e75]:
+            - link " Settings " [ref=e76] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e77]: 
+              - paragraph [ref=e78]:
+                - text: Settings
+                - generic [ref=e79]: 
+            - text:   
+  - generic [ref=e80]:
+    - generic [ref=e83]:
+      - heading "Admin Users" [level=1] [ref=e85]
+      - list [ref=e87]:
+        - listitem [ref=e88]:
+          - link "Home" [ref=e89] [cursor=pointer]:
+            - /url: https://groceryapp.uniqassosiates.com/admin/home
+        - listitem [ref=e90]: / Admin Users
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - link " New" [ref=e93] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e94]: 
+          - text: New
+        - link " Search" [ref=e95] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e96]: 
+          - text: Search
+        - link " Reset" [ref=e97] [cursor=pointer]:
+          - /url: https://groceryapp.uniqassosiates.com/admin/list-admin
+          - generic [ref=e98]: 
+          - text: Reset
+      - generic [ref=e100]:
+        - generic [ref=e104]:
+          - heading "Search Admin Users" [level=4] [ref=e106]
+          - form [ref=e108]:
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]: Username
+                - textbox [ref=e112]: Anitta Wfoysb
+              - generic [ref=e113]:
+                - generic [ref=e114]: User Type
+                - combobox [ref=e115]:
+                  - option "Select" [selected]
+                  - option "Staff"
+                  - option "Admin"
+              - generic [ref=e116]:
+                - button " Search" [ref=e117] [cursor=pointer]:
+                  - generic [ref=e118]: 
+                  - text: Search
+                - link "Reset" [ref=e119] [cursor=pointer]:
+                  - /url: https://groceryapp.uniqassosiates.com/admin/list-admin
+        - text: 
+        - generic [ref=e120]:
+          - heading "Admin Users" [level=4] [ref=e122]
+          - table [ref=e124]:
+            - rowgroup [ref=e125]:
+              - row "Username Usertype Status Password Action" [ref=e126]:
+                - cell "Username" [ref=e127]
+                - cell "Usertype" [ref=e128]
+                - cell "Status" [ref=e129]
+                - cell "Password" [ref=e130]
+                - cell "Action" [ref=e131]
+            - rowgroup [ref=e132]:
+              - row "Anitta Wfoysb staff Inactive  Details   " [ref=e133]:
+                - cell "Anitta Wfoysb" [ref=e134]
+                - cell "staff" [ref=e135]
+                - cell "Inactive" [ref=e136]:
+                  - button "Inactive" [ref=e137] [cursor=pointer]:
+                    - generic [ref=e138]: Inactive
+                - cell " Details" [ref=e139]:
+                  - link " Details" [ref=e141] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e142]: 
+                    - generic [ref=e143]: Details
+                - cell "  " [ref=e144]:
+                  - button "" [ref=e145] [cursor=pointer]:
+                    - generic [ref=e146]: 
+                  - button "" [ref=e147] [cursor=pointer]:
+                    - generic [ref=e148]: 
+                  - button "" [active] [ref=e149] [cursor=pointer]:
+                    - generic [ref=e150]: 
+          - generic [ref=e151]:
+            - navigation "Page navigation":
+              - list [ref=e152]:
+                - listitem [ref=e153]:
+                  - link "1" [ref=e154] [cursor=pointer]:
+                    - /url: http://groceryapp.uniqassosiates.com/admin/user/index?un=Anitta+Wfoysb&ut=&Search=sr&page_ad=1
+  - contentinfo [ref=e155]:
+    - strong [ref=e156]:
+      - text: Copyright © 2025
+      - link "7rmart supermarket" [ref=e157] [cursor=pointer]:
+        - /url: https://groceryapp.uniqassosiates.comhome
+      - text: .
+    - text: All rights reserved.
+    - generic [ref=e158]:
+      - text: Design & Developed by
+      - link:
+        - /url: ""
+```

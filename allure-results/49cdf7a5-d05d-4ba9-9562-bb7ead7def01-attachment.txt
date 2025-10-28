@@ -1,0 +1,11 @@
+userCurrentStatus Active
+inside loop
+                                   
+                              Active
+                            
+                            					  
+                                   
+                              Active
+                            
+                            					  
+Clicking delete...

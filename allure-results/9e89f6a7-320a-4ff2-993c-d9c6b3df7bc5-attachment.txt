@@ -1,0 +1,2 @@
+userCurrentStatus Inactive
+Clicking delete

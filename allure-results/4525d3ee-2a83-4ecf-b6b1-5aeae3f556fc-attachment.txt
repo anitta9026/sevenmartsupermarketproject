@@ -1,0 +1,15 @@
+undefined
+userCurrentStatus                                    
+                              Active
+                            
+                            					  
+inside loop
+                                   
+                              Active
+                            
+                            					  
+                                   
+                              Active
+                            
+                            					  
+undefined

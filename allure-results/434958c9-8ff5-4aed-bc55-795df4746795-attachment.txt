@@ -1,0 +1,15 @@
+searchUserDetails undefined
+userCurrentStatus                                    
+                              Inactive
+                            
+                            					  
+inside loop
+                                   
+                              Inactive
+                            
+                            					  
+                                   
+                              Active
+                            
+                            					  
+undefined

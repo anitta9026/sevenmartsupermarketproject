@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11258","@smoke Verify Login Functionality","chromium","Fri Oct 24 07:27:08 IST 2025","passed","Fri Oct 24 07:27:19 IST 2025","","specs\01-login-pageverification.spec.js","",""
+"","10530","Verify Invalid login error message","chromium","Fri Oct 24 07:27:21 IST 2025","passed","Fri Oct 24 07:27:31 IST 2025","","specs\01-login-pageverification.spec.js","",""

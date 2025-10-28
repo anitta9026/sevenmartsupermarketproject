@@ -1,0 +1,14 @@
+{
+  "userSet1": {
+    "username": "Anitta",
+    "password": "abcd",
+    "user_type": "Staff"
+  },
+  "UserType":{
+    "staff":"Staff",
+    "admin":"Admin",
+    "partner":"Partner",
+    "deliveryBoy":"Delivery Boy"
+
+  }
+}
