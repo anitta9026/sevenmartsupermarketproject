@@ -6,7 +6,7 @@
   "scripts": {
     "userLoginScript":"npx playwright test tests/specs/04-user-login-verification.spec.js",
     "loginPageScript":"npx playwright test tests/specs/01-login-page-verification.spec.js",
-    "smoke": "npx playwright test tests/specs/02-admin-dashboardverification.spec.js --grep @smoke",
+    "smoke": "npx playwright test tests/specs/02-admin-dashboard-verification.spec.js --grep @smoke",
     "generateAllureReport": "npx allure generate ./allure-results --clean",
     "openAllureReport": "npx allure open ./allure-report"
   },

@@ -14,7 +14,7 @@ test.beforeAll(async({browser})=>{
     loginPage = new LoginPage(page);
      homePage = new HomePage(page);
 })
-test("@smoke Verify Login Functionality", async () => {
+test("Verify Login Functionality", async () => {
   await loginPage.launchURL();
   await loginPage.login(credentials.username, credentials.password);
   expect(await homePage.$profileIcon.isVisible()).toBe(true);
