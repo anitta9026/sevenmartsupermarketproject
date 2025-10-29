@@ -16,6 +16,7 @@ test.beforeAll(async({browser})=>{
 
 test('@smoke Verify Admin Dashboard Functionality',async()=>{
     await loginPage.launchURL();
+    
     await loginPage.login(credentials.username, credentials.password);
     console.log(await dashBoard.getAllTabContents());
     console.log(await dashBoard.getMoreInfo());
