@@ -11,15 +11,30 @@ let randomName= generateRandomName()
 
 test.beforeAll(async({browser})=>{
     context = await browser.newContext();
-    page = await context.newPage();
-    loginPage = new LoginPage(page);
-    homePage = new HomePage(page);
-    adminUsers = new AdminUsers(page)
+  page = await context.newPage();
+  loginPage = new LoginPage(page);
+  homePage = new HomePage(page);
+  adminUsers = new AdminUsers(page)
+  await loginPage.launchURL();
+  await loginPage.login(credentials.username, credentials.password);
+  await context.storageState({ path: "state.json" }); 
+  await context.close();  
 })
+test.beforeEach(async({browser})=>{
+  context = await browser.newContext({ storageState: "state.json" });
+  page = await context.newPage();
+  loginPage = new LoginPage(page);
+  homePage = new HomePage(page);
+  adminUsers = new AdminUsers(page)
+  
+})
+test.afterEach(async () => {
+  await context.close();
+});
 
 test('Verify the Create User Functionality in the Admin Users Module',async()=>{
     await loginPage.launchURL();
-    await loginPage.login(credentials.username, credentials.password);
+   // await loginPage.login(credentials.username, credentials.password);
     await adminUsers.clickOnAdminUsersDashBoard();
     for(let i=0;i<3;i++)
     {
@@ -34,7 +49,7 @@ test('Verify the Create User Functionality in the Admin Users Module',async()=>{
 
 test('Verify the Existing User Creation Functionality in the Admin Users Module.',async()=>{
     await loginPage.launchURL();
-    await loginPage.login(credentials.username, credentials.password);
+  //  await loginPage.login(credentials.username, credentials.password);
     await adminUsers.clickOnAdminUsersDashBoard();
     let existingUserCreationAlert = await adminUsers.existingUserCreation(newusers.userSet1.username,newusers.userSet1.password,newusers.userSet1.user_type);
     console.log(existingUserCreationAlert)
@@ -44,7 +59,7 @@ test('Verify the Existing User Creation Functionality in the Admin Users Module.
 
 test('Verify the Search User Functionality in the Admin Users Module.',async()=>{
     await loginPage.launchURL();
-    await loginPage.login(credentials.username, credentials.password);
+   // await loginPage.login(credentials.username, credentials.password);
     await adminUsers.clickOnAdminUsersDashBoard();
     let searchUserDetails = await adminUsers.searchUserDetails(newusers.userSet1.username);
     console.log(searchUserDetails)   
@@ -53,7 +68,7 @@ test('Verify the Search User Functionality in the Admin Users Module.',async()=>
 
 test('Verify the Lock User Functionality in the Admin Users Module.',async()=>{
     await loginPage.launchURL();
-    await loginPage.login(credentials.username, credentials.password);
+  //  await loginPage.login(credentials.username, credentials.password);
     await adminUsers.clickOnAdminUsersDashBoard();
     await adminUsers.searchUser(newusers.userSet1.username);
     let lockStatus = await adminUsers.changeUserStatus(newusers.userSet1.username)
@@ -63,7 +78,7 @@ test('Verify the Lock User Functionality in the Admin Users Module.',async()=>{
 
 test('Verify the Delete User Functionality in the Admin Users Module.',async()=>{
     await loginPage.launchURL();
-    await loginPage.login(credentials.username, credentials.password);
+  //  await loginPage.login(credentials.username, credentials.password);
     await adminUsers.clickOnAdminUsersDashBoard();
     let deletedUserDetails = await adminUsers.deleteInactiveUser("Anitta Cazinn")
     expect(await deletedUserDetails).toContain('RESULT NOT FOUND')
@@ -71,7 +86,7 @@ test('Verify the Delete User Functionality in the Admin Users Module.',async()=>
 
 test('Verify the Edit User Functionality in the Admin Users Module.',async()=>{//not working
     await loginPage.launchURL();
-    await loginPage.login(credentials.username, credentials.password);
+  //  await loginPage.login(credentials.username, credentials.password);
     await adminUsers.clickOnAdminUsersDashBoard();
     await adminUsers.editUserDetails("Anitta Uipxxv",newusers.UserType.staff,randomName)
 })
